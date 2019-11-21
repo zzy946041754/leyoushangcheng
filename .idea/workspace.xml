@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d560c91d-7abc-41b2-8f67-6c47b808c7e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/zzy-springboot/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zzy-springboot/src/main/java/zzy/springboot/com/config/JdbcProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zzy-springboot/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zzy-springboot/src/main/java/zzy/springboot/com/config/JdbcConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/zzy-springboot/src/main/java/zzy/springboot/com/config/JdbcConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zzy-springboot/src/main/resources/乐优商城项目总结.docx" beforeDir="false" afterPath="$PROJECT_DIR$/zzy-springboot/src/main/resources/乐优商城项目总结.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zzy-springboot/zzy-springboot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/zzy-springboot/zzy-springboot.iml" afterDir="false" />
-    </list>
+    <list default="true" id="d560c91d-7abc-41b2-8f67-6c47b808c7e7" name="Default Changelist" comment="111" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/zzy-springboot/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -101,10 +92,11 @@
       <file leaf-file-name="TestApplication.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/zzy-springboot/src/main/java/zzy/springboot/com/TestApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+            <state relative-caret-position="198">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#636#637#0" expanded="true" />
                 <element signature="e#701#702#0" expanded="true" />
               </folding>
             </state>
@@ -458,12 +450,20 @@
       <workItem from="1573968510811" duration="12353000" />
       <workItem from="1574083510723" duration="1851000" />
       <workItem from="1574087759989" duration="170000" />
-      <workItem from="1574147196688" duration="8164000" />
+      <workItem from="1574147196688" duration="9804000" />
     </task>
+    <task id="LOCAL-00001" summary="111">
+      <created>1574249376743</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574249376743</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23070000" />
+    <option name="totallyTimeSpent" value="24710000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -483,12 +483,12 @@
       <window_info anchor="bottom" id="Messages" order="14" weight="0.3289689" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="2" />
-      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.3289689" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.22913256" />
+      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.60720134" />
       <window_info anchor="bottom" id="Spring" order="12" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3289689" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
       <window_info anchor="right" id="Bean Validation" order="9" show_stripe_button="false" weight="0.3297587" />
       <window_info id="Web" order="7" side_tool="true" />
@@ -507,8 +507,38 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="111" />
+    <option name="LAST_COMMIT_MESSAGE" value="111" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -557,6 +587,7 @@
           <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#636#637#0" expanded="true" />
             <element signature="e#701#702#0" expanded="true" />
           </folding>
         </state>
@@ -726,10 +757,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/zzy-springboot/src/main/java/zzy/springboot/com/TestApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+        <state relative-caret-position="198">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#636#637#0" expanded="true" />
             <element signature="e#701#702#0" expanded="true" />
           </folding>
         </state>
