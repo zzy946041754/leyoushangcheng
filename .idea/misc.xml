@@ -4,6 +4,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/zzy-springboot/pom.xml" />
+        <option value="$PROJECT_DIR$/zzy-user/pom.xml" />
       </list>
     </option>
   </component>

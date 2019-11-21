@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/zzy-springboot/zzy-springboot.iml" filepath="$PROJECT_DIR$/zzy-springboot/zzy-springboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zzy-user/zzy-user.iml" filepath="$PROJECT_DIR$/zzy-user/zzy-user.iml" />
     </modules>
   </component>
 </project>

@@ -1,0 +1,35 @@
+
+
+SpringMvc流程：
+（1）客户端发出一个http请求，Web应用服务器接收到这个请求。如果匹配DispatcherServlet的请求映射路径（在web.xml中指定），
+则交给DispatcherServlet处理。
+（2）DispatcherServlet接受到请求后，根据请求的信息及HandlerMapping找到处理请求的Handler（处理器），
+再通过HandlerAdapter对Handler进行封装，用统一的接口对各种Handler方法进行调用。
+（3）处理器完成业务逻辑的处理后返回一个ModelAndView给DispatcherServlet，ModelAndView包含了视图逻辑名和模型数据。
+（4）DispatcherServlet再通过ViewResolver完成对视图的解析工作。
+（5）得到真实的视图对象View后，再由DispatcherServlet使用View对象对ModelAndView中的模型数据进行视图渲染。
+（6）最终返回完整的视图给客户端，视图可能是一个HTML页面，也可能是一个Xml或Json串，甚至是一张图片或其他媒体形式。
+
+SpringIoc一般叫控制反转或者依赖注入，通过将javabean以及其他类注入到Spring容器中，交给Spring容器去管理，在spring容器启动时，
+spring会把配置文件中注入的bean和注解注入的bean都初始化好，然后在你需要调用的时候，由spring容器通过反射机制来创建实例化对象。
+这样大大降低了代码的耦合性。
+
+
+通过spring容器管理bean并创建对象给用户使用，依赖注入方式接口注入，属性注入，构造函数注入，工厂方法注入  
+再分为配置文件注入（通过bean标签 ）
+注解注入（@Resource，@Autowired）
+
+、IOC操作
+      1）@Component  ：用于实现ioc控制反转,属性value用于实现对象id定义  把普通的javabean实例化到spring容器中  相当于配置文件注入bean。
+      2）@Scope    ：用于实现单例，多例，request，session等的配置
+      
+      3）@Controller  ： 专门用于controller层的注解，实现控制反转
+      4）@Service  ： 专门用于service层的注解，实现控制反转
+      5）@Repository  ： 专门用于持久层的注解，实现控制反转
+3.4.5将这些类注入进spring容器中管理
+
+
+
+SpringAOP（面向切面编程）在java编程中对象与对象之间，方法与方法之间，模块与模块之间等等都是一个个切面。在这些切面中正常我们经常会有
+重复性的代码例如事务管理、日志等，这个时候我们可以把逻辑相同的代码单独编写通过某个切点把这段代码织入，也有些是把增加代码织入到切点中。
+通过jdk动态代理（通过反射）和cglib动态代理实现（通过字节码技术直接生成目标类的子类，重写了原有父类的方法并加入了增强方法）。
